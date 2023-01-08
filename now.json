@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "JarvisArt/rc-watermark",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "dist" }
+    }
+  ]
+}
