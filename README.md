@@ -1,14 +1,17 @@
-# rc-watermark
+# antd-watermark
 
 React 18 supported Watermark Component.
 
-## Development
+[![NPM version][npm-image]][npm-url] [![dumi](https://img.shields.io/badge/docs%20by-dumi-blue?style=flat-square)](https://github.com/umijs/dumi) [![build status][github-actions-image]][github-actions-url] [![Codecov][codecov-image]][codecov-url] [![npm download][download-image]][download-url]
 
-```bash
-npm install
-npm start
-open http://localhost:8000
-```
+[npm-image]: http://img.shields.io/npm/v/antd-watermark.svg?style=flat-square
+[npm-url]: http://npmjs.org/package/antd-watermark
+[github-actions-image]: https://github.com/JarvisArt/antd-watermark/workflows/CI/badge.svg
+[github-actions-url]: https://github.com/JarvisArt/antd-watermark/actions
+[codecov-image]: https://img.shields.io/codecov/c/github/JarvisArt/antd-watermark/master.svg?style=flat-square
+[codecov-url]: https://app.codecov.io/gh/JarvisArt/antd-watermark
+[download-image]: https://img.shields.io/npm/dm/antd-watermark.svg?style=flat-square
+[download-url]: https://npmjs.org/package/antd-watermark
 
 ## Feature
 
@@ -16,13 +19,15 @@ React life cycle support watermark component
 
 ## Install
 
-[![@rc-component/tour](https://nodei.co/npm/@rc-component/tour.png)](https://www.npmjs.com/package/@rc-component/tour)
+```bash
+npm install antd-watermark 
+```
 
 ## Usage
 
 ```tsx | pure
 import React from 'react';
-import Watermark from '../../src';
+import Watermark from 'antd-watermark';
 
 const App: React.FC = () => (
   <Watermark content="Ant Design">
@@ -31,6 +36,13 @@ const App: React.FC = () => (
 );
 
 export default App;
+```
+## Development
+
+```bash
+npm install
+npm start
+open http://localhost:8000
 ```
 
 ## API

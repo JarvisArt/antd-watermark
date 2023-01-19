@@ -10,7 +10,7 @@
     "paths": {
       "@/*": ["src/*"],
       "@@/*": ["src/.umi/*"],
-      "rc-watermark": ["src/index.tsx"]
+      "antd-watermark": ["src/index.tsx"]
     }
   },
   "include": [".dumi/**/*", ".dumirc.ts", "**/*.ts", "**/*.tsx"]

@@ -1,19 +1,20 @@
 {
-  "name": "rc-watermark",
+  "name": "antd-watermark",
   "version": "1.0.0",
   "description": "watermark ui component for react",
   "keywords": [
+    "watermark",
     "react",
     "react-component",
     "react-watermark"
   ],
-  "homepage": "http://github.com/JarvisArt/rc-watermark",
+  "homepage": "http://github.com/JarvisArt/antd-watermark",
   "bugs": {
-    "url": "http://github.com/JarvisArt/rc-watermark/issues"
+    "url": "http://github.com/JarvisArt/antd-watermark/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:JarvisArt/rc-watermark.git"
+    "url": "git@github.com:JarvisArt/antd-watermark.git"
   },
   "license": "MIT",
   "author": "1120886013@qq.com",

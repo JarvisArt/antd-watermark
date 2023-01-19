@@ -4,4 +4,5 @@ export default defineConfig({
   themeConfig: {
     name: 'Watermark',
   },
+  mfsu: false,
 });

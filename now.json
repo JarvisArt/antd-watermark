@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "JarvisArt/rc-watermark",
+  "name": "JarvisArt/antd-watermark",
   "builds": [
     {
       "src": "package.json",
