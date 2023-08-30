@@ -94,7 +94,7 @@ const Watermark: React.FC<WatermarkProps> = (props) => {
     return markStyle;
   };
 
-  const containerRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement | null>(null);
   const watermarkRef = useRef<HTMLDivElement>();
   const { createObserver, destroyObserver, reRendering } = useMutationObserver();
 

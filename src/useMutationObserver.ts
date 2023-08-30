@@ -23,8 +23,12 @@ export default function useMutationObserver() {
     }
   };
 
-  useEffect(() => destroyObserver, []);
-
+  useEffect(() => {
+    // Destroy observer
+    return () => {
+      destroyObserver();
+    };
+  }, []);
   const reRendering = (mutation: MutationRecord, watermarkElement?: HTMLElement) => {
     let flag = false;
     // Whether to delete the watermark node
